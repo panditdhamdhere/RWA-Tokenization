@@ -217,3 +217,5 @@ contract RwaLending is IERC1155Receiver, OwnerIsCreator, ReentrancyGuard {
         return interfaceId == type(IERC1155Receiver).interfaceId || interfaceId == type(IERC165).interfaceId;
     }
 }
+
+// 0x976F7529F08EC086C68D776891Aefd615fDD5d3b => contract address
